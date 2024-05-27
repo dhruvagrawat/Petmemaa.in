@@ -1,5 +1,7 @@
 import React from "react";
 import "./Menu.css";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer";
 import img1 from "../../Assets/MenuNew/Menu_page-0001.jpg";
 import img2 from "../../Assets/MenuNew/Menu_page-0002.jpg";
 import img3 from "../../Assets/MenuNew/Menu_page-0003.jpg";
@@ -10,6 +12,8 @@ const ImageGallery = () => {
   ];
 
   return (
+    <>
+    <Navbar />
     <div  className="imageContainer">
       {images.map((imageUrl, index) => (
         <img
@@ -20,6 +24,8 @@ const ImageGallery = () => {
         />
       ))}
     </div>
+    <Footer />
+    </>
   );
 };
 

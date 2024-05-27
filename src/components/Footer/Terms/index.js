@@ -1,8 +1,12 @@
 import React from 'react'
 import { TermsContainer } from './TermComponents'
+import Footer from '..'
+import Navbar from '../../Navbar/Navbar'
 
 const Terms = () => {
   return (
+    <>
+    <Navbar />
     <TermsContainer>
     Terms and Conditions
     <br/>
@@ -59,6 +63,8 @@ const Terms = () => {
     
     Pet Me Maa reserves the right to update or modify these terms and conditions at any time without prior notice. It is your responsibility to check for changes periodically.
   </TermsContainer>
+  <Footer />
+  </>
   )
 }
 

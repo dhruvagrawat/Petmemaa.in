@@ -4,16 +4,12 @@ import face from "../../Assets/Footer/face.webp";
 import wats from "../../Assets/Footer/wats.webp";
 import loc from "../../Assets/Footer/loc.webp";
 import logo from "../../Assets/Footer/logo.webp";
-import dogLying from "../../Assets/Footer/dog sitting.webp";
-import catLying from "../../Assets/Footer/lying cat.webp";
+
 
 import { Title } from "../Home/Pages/Dining/DiningElements";
 
 import {
   AboveFooter,
-  ImgContainer,
-  ImgWrap,
-  ImgWrapCat,
   FooterContainer,
   FooterWrap,
   FooterLinksContainer,
@@ -39,11 +35,6 @@ const Footer = () => {
           <Title>Visit Now</Title>
 
       </AboveFooter>
-      
-      <ImgContainer>
-          <ImgWrap src={dogLying} />
-          <ImgWrapCat src={catLying} />
-        </ImgContainer>
 
       <FooterContainer>
         <FooterWrap>
