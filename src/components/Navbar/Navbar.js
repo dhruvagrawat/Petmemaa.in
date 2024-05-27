@@ -61,9 +61,6 @@ function Navbar() {
                   {page.name}
                 </Button>
               ))}
-              <Button className="loginButton">
-                <h3>Login</h3>
-              </Button>
             </Box>
 
             <Box sx={{ display: { xs: "flex", md: "none" } }}>
