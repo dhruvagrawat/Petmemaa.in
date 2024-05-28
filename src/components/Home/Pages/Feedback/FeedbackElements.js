@@ -97,3 +97,9 @@ export const FeedbackBtn = styled.button`
     background: #d2f2fa; /* Set your desired hover color here */
   }
 `;
+export const Message = styled.p`
+  margin-top: 20px;
+  color: green;
+  font-size: 16px;
+  text-align: center;
+`;

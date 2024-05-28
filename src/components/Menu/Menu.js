@@ -14,8 +14,11 @@ const ImageGallery = () => {
   return (
     <>
     <Navbar />
+    
     <div  className="imageContainer">
+    <br></br>
       {images.map((imageUrl, index) => (
+        
         <img
           key={index}
           src={imageUrl}
