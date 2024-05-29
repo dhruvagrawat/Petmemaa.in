@@ -1,116 +1,138 @@
 /* In your CSS file or component styles */
 
-  
-  .topmost{
-    margin-top: 20px;
-    max-width:100% ;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-items: center;
-    align-items: center;
-  }
-  .first{
-    margin-top: 20px;
-    flex-direction: row;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  .innerfirst{
-    
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    align-items: left;
-    margin-left: 10%;
-  }
-  .innerimgfirst{
-    
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    align-items: right;
-    margin-right: 10%;
-    
-  }
-  .imagedog{
-    max-width: 100%;
-    align-items: right;
-    margin-left: 30%;
-  }
-  .firstbtn{
-    justify-content: left;
-    max-width: 35%;
-  }
-  .head2{
-    margin-top: 20px;
-    flex-direction: row;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  .contactbox{
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: blanchedalmond;
-    margin-left  :20% ;
-    margin-right: 20%;
-    border-radius: 30px;
-    padding:20px;
-  }
-  .contactside{
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    align-items: left;
-    justify-content: center;
-  }
-  .contactFormContainer{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .contactForm{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    align-items: left;
-    justify-content: center;
-  }
-  .callcon{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
 
-  }
-  .callsec{
-    font-size: 25px;
-  }
-  .grid{
-    display: flex;
-    flex-direction: row;
-  }
-  .vector{
-    max-width:25% ;
-  }
-  .vector2{
-    max-width:25% ;
-    justify-content: right;
-    align-items: right;
-  }
-  .map_part{
-    display: flex;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-    
-    border-radius: 30px;
-    padding:px;
-  }
+.topmost {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  padding-top: 3%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    300deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(255, 239, 239, 0.6125043767507004) 100%
+  );
+}
+
+.first {
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.innerfirst {
+
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: left;
+  margin-left: 10%;
+}
+
+.innerimgfirst {
+
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: right;
+  margin-right: 10%;
+
+}
+
+.imagedog {
+  max-width: 100%;
+  align-items: right;
+  margin-left: 30%;
+}
+
+.firstbtn {
+  justify-content: left;
+  max-width: 35%;
+}
+
+.head2 {
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contactbox {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.contactside {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  align-items: left;
+  justify-content: center;
+}
+
+.contactFormContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: left;
+  justify-content: center;
+}
+
+.callcon {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.callsec {
+  font-size: 25px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.vector {
+  max-width: 25%;
+}
+
+.vector2 {
+  max-width: 25%;
+  justify-content: right;
+  align-items: right;
+}
+
+.map_part {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 30px;
+  padding: px;
+}
