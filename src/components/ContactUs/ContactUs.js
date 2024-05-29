@@ -47,7 +47,7 @@ const ContactUs = () => {
       <div className="topmost">
         <div className="first">
           <div className="innerfirst">
-            <h1>Get in Touch</h1>
+            <h1 className="get">Get in Touch 🐾 </h1>
             <p>We'd love to hear from you! Whether you ahve questions about our service or want to book an appointment</p>
             <button className="firstbtn">Book an appointment</button>
           </div>
@@ -79,7 +79,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="callcon">
-            <h3 className="callsec">Call Us: +91-8826791521</h3>
+            <h3 className="callsec"> 🐾 Call Us: +91-8826791521 🦴</h3>
           </div>
           <div className="grid">
             <div>
@@ -118,6 +118,7 @@ const ContactUs = () => {
             <p className="time">Monday-Saturday: 10 AM - 10 PM</p>
           </div>
       </div>
+      
 
 
 
