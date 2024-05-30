@@ -35,9 +35,23 @@
 }
 .get{
   color: 'black';
-  font-Size: 52px;
+  font-Size: 40px;
   font-style: normal;
-   font-Weight: '600';
+  font-Weight: '500';
+  font-family: "Helvetica Neue", sans-serif;
+}
+.getxt{
+  color: 'black';
+  font-Size: 15px;
+  font-style: normal;
+  font-Weight: '100';
+  max-width: 80%;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.firstbtn {
+  font-family: "Helvetica Neue", sans-serif;
+  width: 100%; height: min-content; padding-left: 15px; padding-right: 15px; padding-top: 11px; padding-bottom: 11px; background: #8AB9DA; border-radius: 15px; justify-content: center; align-items: center; 
+ font-size: 13.33px;  font-weight: 500; color: #FFFFFF; text-align: center; cursor: pointer; border: none; outline: none;
 }
 
 .innerimgfirst {
@@ -45,28 +59,44 @@
   display: flex;
   flex-direction: row;
   max-width: 100%;
-  align-items: right;
-  margin-right: 10%;
+  align-items: center;
+  margin-right: 20%;
+  
 
 }
 
 .imagedog {
   max-width: 100%;
-  align-items: right;
+  align-items: center;
   margin-left: 30%;
+  height: auto;
+  width: auto;
+  padding-right: 300px;
+  
+
 }
 
 .firstbtn {
   justify-content: left;
   max-width: 35%;
+
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .head2 {
-  margin-top: 20px;
+  /* margin-top: 20px;
   flex-direction: row;
   align-items: center;
   display: flex;
   justify-content: center;
+  color: 'black';
+  font-Size: 40px;
+  font-style: normal;
+  font-Weight: '300'; */
+  padding-top: 80px;
+  font-family: "Helvetica Neue", sans-serif;
+  padding-bottom: 30px;
+  color: black; font-size: 28px;  font-weight: 600; word-wrap: break-word; text-align: center; line-height: 1.2; margin-top: 20px; margin-bottom: 20px;
 }
 
 .contactbox {
@@ -75,11 +105,25 @@
   max-width: 100%;
   align-items: center;
   justify-content: center;
-  background-color: blanchedalmond;
+  background-color: #FDF2F2;
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 30px;
-  padding: 20px;
+  padding:20px;
+}
+.specialtxt{
+  color: #EDB5B2;
+  font-size: 40px;
+  font-family: "Helvetica Neue", sans-serif;
+  
+
+}
+.spltxt{
+  color: #000000;
+  font-size: 13px;
+  font-family: "Helvetica Neue", sans-serif;
+  margin-top: -10px;
+
 }
 
 .contactside {
@@ -88,6 +132,8 @@
   max-width: 70%;
   align-items: left;
   justify-content: center;
+  padding-left: 20px;
+
 }
 
 .contactFormContainer {
@@ -96,6 +142,10 @@
   max-width: 100%;
   align-items: center;
   justify-content: center;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
 }
 
 .contactForm {
@@ -104,6 +154,35 @@
   max-width: 100%;
   align-items: left;
   justify-content: center;
+  gap: 12px;
+  border-radius: 30px;
+  background: #FDF2F2;
+  
+}
+.fname{
+  border-radius: 8px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: 300px;
+
+}
+.fbtn{
+  margin-top: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+  width:min-content;
+  background-color: #EDB5B2;
+  border: none;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 19px;
+  padding-left: 19px;
+  font-size:12px ;
+
+
 }
 
 .callcon {
@@ -111,34 +190,113 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  font-family: "Helvetica Neue", sans-serif;
 
 }
 
 .callsec {
-  font-size: 25px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .grid {
   display: flex;
   flex-direction: row;
+  max-width: 100%;
+}
+.innergrid {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: left;
+  justify-content: center;
 }
 
 .vector {
-  max-width: 25%;
+  max-width: 50%;
+  justify-content: left;
 }
 
 .vector2 {
-  max-width: 25%;
+  max-width: 50%;
   justify-content: right;
-  align-items: right;
+  padding-left: 50%;
+}
+.innerin{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.add{
+  color: 'black';
+  font-Size: 18px;
+  font-style: normal;
+  font-Weight: '400';
+  margin-left: -150px;
+  font-family: "Helvetica Neue", sans-serif;
+
+}
+.mail{
+  color: 'black';
+  font-Size: 18px;
+  font-style: normal;
+  font-Weight: '400';
+  font-family: "Helvetica Neue", sans-serif;
+
+}
+.social{
+  color: 'black';
+  display: flex;
+  font-Size: 18px;
+  font-style: normal;
+  font-Weight: '400';
+  align-items: center;
+  margin-top: 40px;
+  margin-left: -60px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.innersocail{
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .map_part {
+  margin-top: 30px;
   display: flex;
   max-width: 100%;
   align-items: center;
   justify-content: center;
 
   border-radius: 30px;
-  padding: px;
+  padding: 10px;
+}
+.timecss {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center; /* Center horizontally */
+  justify-content: center;
+}
+
+.thead {
+  color: black;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.time {
+  margin-top: -16px;
+  color: black;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: "Helvetica Neue", sans-serif;
 }

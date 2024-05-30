@@ -1,11 +1,10 @@
 .logo {
   max-width: 130px;
   max-height: 130px;
-  width: 100%; /* Ensures the image stays within its container */
-  height: auto; /* Maintains the image's aspect ratio */
-  margin-left: 10%;
+  width: 100%;
+  height: auto;
+  margin-left: 0; /* Remove left margin */
 }
-
 
 .customBackground {
   background: rgb(0, 0, 0);
@@ -21,22 +20,21 @@
   border-radius: 110px;
   border: none;
   width: 15%;
-  margin-left: 4%; 
+  margin-left: 4%;
 }
 
 .loginButton:hover {
-  background: #d2f2fa; /* Change the color to your desired hover color */
+  background: #d2f2fa;
 }
-
-
-
-
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 900px) {
   .logo {
     max-width: 30%;
-    margin-left: 0; 
+    margin-left: 0;
   }
 
+  .MuiButton-root {
+    margin-left: 0; /* Ensure no left margin on buttons */
+  }
 }

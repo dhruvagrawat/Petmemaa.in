@@ -47,8 +47,8 @@ const ContactUs = () => {
       <div className="topmost">
         <div className="first">
           <div className="innerfirst">
-            <h1 className="get">Get in Touch 🐾 </h1>
-            <p>We'd love to hear from you! Whether you ahve questions about our service or want to book an appointment</p>
+            <h1 className="get">Get in touch 🐾 </h1>
+            <p className="getxt">We'd love to hear from you! Whether you ahve questions about our service or want to book an appointment</p>
             <button className="firstbtn">Book an appointment</button>
           </div>
           <div className="innerimgfirst">
@@ -56,23 +56,22 @@ const ContactUs = () => {
           </div>
         </div>
         <div>
-          <h2 className="head2">Didn t find what you needed? Let us know!</h2>
+          <h2 className="head2">Didn't find what you needed? Let us know!</h2>
           <div className="contactbox">
             <div className="contactside">
-              <h1>Write to us!</h1>
-              <p>We're always striving to improve our services to better meet the needs of our furry customers and their owners. If you have any feedback, suggestions, or comments, we'd love to hear from you.
+              <h1 className="specialtxt">Write to us!</h1>
+              <p className="spltxt"> We're always striving to improve our services to better meet the needs of our furry customers and their owners. If you have any feedback, suggestions, or comments, we'd love to hear from you.
                 <br></br>
                 Your input helps us continue to provide top-notch care and create a welcoming environment for all pets.</p>
             </div>
             <div>
               <div className="contactFormContainer">
-                <h2>Contact Us</h2>
                 <form onSubmit={handleSubmit} className="contactForm">
-                  <input type="text" name="name" placeholder="Pet Parent's Name" required />
-                  <input type="email" name="email" placeholder="Email" required />
-                  <input type="tel" name="phone" placeholder="Phone" required />
-                  <textarea name="message" placeholder="Message" required></textarea>
-                  <button type="submit">Send</button>
+                  <input className="fname" type="text" name="name" placeholder="Pet Parent's Name" required />
+                  <input className="fname" type="email" name="email" placeholder="Email" required />
+                  <input className="fname" type="tel" name="phone" placeholder="Phone" required />
+                  <textarea className="fname" name="message" placeholder="Message" required></textarea>
+                  <button className="fbtn" type="submit">Submit</button>
                 </form>
                 {sent && <p className="successMessage">Your message has been sent successfully!</p>}
               </div>
@@ -86,23 +85,25 @@ const ContactUs = () => {
               <img className="vector" src={vector2} alt="left" />
             </div>
 
-            <div>
-              <div>
-                {/* <img>icon</img> */}
-                <p><b>Address</b>
-                  <br></br>
-                  Village Sorkha, FNG Highway, beside Indian National Public School, Sector-115, Noida-20130</p>
+            <div className="innergrid">
+              <div className="innerin">
+                <div className="add">
+                
+                  <p><b>Address</b>
+                    <br></br>
+                    Village Sorkha, FNG Highway, beside Indian National Public School, Sector-115, Noida-20130</p>
+                </div>
+                <div className="mail">
+                  {/* icons */}
+                  <p><b>Mail</b><br></br>
+                    <a href="helpdesk@petmemaa.co.in">Helpdesk@petmemaa.co.in</a>
+                  </p>
+                </div>
               </div>
-              <div>
-                {/* icons */}
-                <p><b>Mail</b><br></br>
-                  <a href="helpdesk@petmemaa.co.in">Helpdesk@petmemaa.co.in</a>
-                </p>
-              </div>
-              <div>
-                <p><b>Connect on Social Media</b><br></br>
+              <div className="social">
+                <p className="innersocial"><b>Connect on Social Media</b><br></br>
                   Stay updated on the latest news, adorable pet photos, and special promotions by following us on social media. </p>
-                {/* icons */}{/* icons */}
+                
               </div>
             </div>
               <div>
@@ -113,9 +114,9 @@ const ContactUs = () => {
           <div>
             <iframe title="map" id="map-canvas" className="map_part" width="1200vh" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Pet Me Maa, Sorkha, Noida, Uttar Pradesh 201301&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://embedgooglemaps.com">embed google maps html</a> and <a href="https://yatzyregler.com/maxpoang-yatzy/">Maxpoäng yatzy</a></iframe>
           </div>
-          <div>
-            <p className="thead">Business Hours</p>
-            <p className="time">Monday-Saturday: 10 AM - 10 PM</p>
+          <div className="timecss">
+            <p className="thead">Business Hours:</p>
+            <p className="time">Monday -Saturday: 10 AM - 10 PM</p>
           </div>
       </div>
       

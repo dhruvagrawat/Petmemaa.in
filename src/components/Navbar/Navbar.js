@@ -14,10 +14,11 @@ import logo from "../../Assets/Intro/Logo.webp";
 import "./Navbar.css";
 
 const pages = [
-  { name: "About", path: "/about" },
-  { name: "Cafe", path: "/cafe" },
-  { name: "Services", path: "/services" },
-  { name: "Vet Services", path: "/vetservices" },
+  { name: "Home", path: "/" },
+  // { name: "About", path: "/about" },
+  { name: "Menu", path: "/cafe" },
+  // { name: "Services", path: "/services" },
+  { name: "Cafe", path: "/comingsoon" },
   { name: "Contact Us", path: "/contactus" }
 ];
 
@@ -40,67 +41,63 @@ function Navbar() {
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 1 }}>
+          <Box sx={{ flexGrow: 1, display: "flex", alignItems: "center" }}>
             <Link to="/">
               <img src={logo} alt="logo" className="logo" />
             </Link>
           </Box>
 
-          <Box sx={{ flexGrow: 2 }} />
+          <Box sx={{ display: { xs: "none", md: "flex" }, ml: "auto" }}>
+            {pages.map((page) => (
+              <Button
+                key={page.name}
+                sx={{ mx: 1, color: "black" }}
+                style={{ textTransform: "none", fontSize: "17px" }}
+                component={Link}
+                to={page.path}
+              >
+                {page.name}
+              </Button>
+            ))}
+          </Box>
 
-          <Box sx={{ flexGrow: 1 }}>
-            <Box sx={{ display: { xs: "none", md: "flex" } }}>
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="black"
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "left",
+              }}
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+            >
               {pages.map((page) => (
-                <Button
-                  key={page.name}
-                  sx={{ ml: 2, color: "black" }}
-                  style={{ textTransform: "none", fontSize: "17px" }}
-                  component={Link}
-                  to={page.path}
-                >
-                  {page.name}
-                </Button>
+                <MenuItem key={page.name} onClick={handleCloseNavMenu}>
+                  <Typography
+                    component={Link}
+                    to={page.path}
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    {page.name}
+                  </Typography>
+                </MenuItem>
               ))}
-            </Box>
-
-            <Box sx={{ display: { xs: "flex", md: "none" } }}>
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="black"
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left",
-                }}
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-              >
-                {pages.map((page) => (
-                  <MenuItem key={page.name} onClick={handleCloseNavMenu}>
-                    <Typography
-                      component={Link}
-                      to={page.path}
-                      style={{ textDecoration: 'none', color: 'inherit' }}
-                    >
-                      {page.name}
-                    </Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
-            </Box>
+            </Menu>
           </Box>
         </Toolbar>
       </Container>

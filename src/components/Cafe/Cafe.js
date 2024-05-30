@@ -12,7 +12,7 @@ import menu from '../../Assets/Cafe/menu.png';
 import ldog from '../../Assets/Cafe/ldog.png';
 import emo2 from '../../Assets/Cafe/emo2.png';
 
-const Coming = () => {
+const Cafe = () => {
   return (
     <>
       <Navbar />
@@ -78,4 +78,4 @@ const Coming = () => {
   )
 }
 
-export default Coming
+export default Cafe
