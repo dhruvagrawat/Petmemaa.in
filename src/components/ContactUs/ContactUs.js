@@ -6,6 +6,9 @@ import img from "../../Assets/contactus/dogimg.png";
 import "./ContactUs.css";
 import vector from "../../Assets/Feedback/Vector.webp";
 import vector2 from "../../Assets/Feedback/Vector2.webp";
+import mail from "../../Assets/contactus/mail.png";
+import location from "../../Assets/contactus/location.png";
+import social from "../../Assets/contactus/social.png";
 
 const ContactUs = () => {
   const [sent, setSent] = useState(false);
@@ -47,9 +50,12 @@ const ContactUs = () => {
       <div className="topmost">
         <div className="first">
           <div className="innerfirst">
-            <h1 className="get">Get in touch 🐾 </h1>
+            <p className="get"><b>Get in touch 🐾</b> </p>
             <p className="getxt">We'd love to hear from you! Whether you ahve questions about our service or want to book an appointment</p>
-            <button className="firstbtn">Book an appointment</button>
+            <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
+              <button className="firstbtn">Book an appointment</button>
+            </a>
+
           </div>
           <div className="innerimgfirst">
             <img className="imagedog" src={img} alt="dog" />
@@ -88,38 +94,40 @@ const ContactUs = () => {
             <div className="innergrid">
               <div className="innerin">
                 <div className="add">
-                
+                  <img className="location" src={location} alt="location" />
                   <p><b>Address</b>
                     <br></br>
                     Village Sorkha, FNG Highway, beside Indian National Public School, Sector-115, Noida-20130</p>
                 </div>
                 <div className="mail">
-                  {/* icons */}
+                  <img className="mailimg" src={mail} alt="mail" />
                   <p><b>Mail</b><br></br>
                     <a href="helpdesk@petmemaa.co.in">Helpdesk@petmemaa.co.in</a>
                   </p>
                 </div>
               </div>
+
               <div className="social">
+
                 <p className="innersocial"><b>Connect on Social Media</b><br></br>
                   Stay updated on the latest news, adorable pet photos, and special promotions by following us on social media. </p>
-                
+                <img className="socialimg" src={social} alt="social" />
               </div>
             </div>
-              <div>
-                <img className="vector2" src={vector} alt="right" />
-              </div>
+            <div>
+              <img className="vector2" src={vector} alt="right" />
+            </div>
           </div>
         </div>
-          <div>
-            <iframe title="map" id="map-canvas" className="map_part" width="1200vh" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Pet Me Maa, Sorkha, Noida, Uttar Pradesh 201301&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://embedgooglemaps.com">embed google maps html</a> and <a href="https://yatzyregler.com/maxpoang-yatzy/">Maxpoäng yatzy</a></iframe>
-          </div>
-          <div className="timecss">
-            <p className="thead">Business Hours:</p>
-            <p className="time">Monday -Saturday: 10 AM - 10 PM</p>
-          </div>
+        <div>
+          <iframe title="map" id="map-canvas" className="map_part" width="1200vh" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Pet Me Maa, Sorkha, Noida, Uttar Pradesh 201301&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://embedgooglemaps.com">embed google maps html</a> and <a href="https://yatzyregler.com/maxpoang-yatzy/">Maxpoäng yatzy</a></iframe>
+        </div>
+        <div className="timecss">
+          <p className="thead">Business Hours:</p>
+          <p className="time">Monday -Saturday: 10 AM - 10 PM</p>
+        </div>
       </div>
-      
+
 
 
 

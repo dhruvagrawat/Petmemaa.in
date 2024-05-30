@@ -1,0 +1,319 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(285deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(255, 239, 239, 0.6125043767507004) 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.mainhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.head {
+    min-width: 100%;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 6%;
+}
+
+.line {
+    width: 80%;
+    margin-top: 60px;
+    height: 3px;
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+
+.btn,
+.btn2 {
+    margin-top: 10px;
+    font-family: "Helvetica Neue", sans-serif;
+    width: fit-content;
+    background-color: #EDB5B2;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-size: 12px;
+    color: white;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.btn2 {
+    margin-top: -15px;
+}
+
+.btn:hover,
+.btn2:hover {
+    cursor: pointer;
+    background-color: #D49895;
+    /* Change background color on hover */
+}
+
+
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+
+}
+
+
+/* .in1{
+    display: flex;
+    flex-direction: row;
+    align-items: left; */
+/* }
+.emo{
+    width: 100%;
+} */
+
+.heading {
+    color: 'black';
+    font-Size: 50px;
+    font-style: normal;
+    font-Weight: '50';
+    font-family: "Helvetica Neue", sans-serif;
+
+}
+
+.textbhead {
+    color: 'black';
+    font-Size: 16px;
+    font-style: normal;
+    font-Weight: '10';
+    margin-top: -22px;
+    font-family: "Helvetica Neue", sans-serif;
+
+}
+
+.alignhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #FDF2F2;
+
+
+}
+
+.inf2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 13px;
+    border-radius: 40px;
+    background-color: #FDF2F2;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.f2head {
+    color: #F58F9D;
+    font-Size: 50px;
+    font-style: normal;
+    font-Weight: '800';
+    margin-bottom: 0px;
+    font-family: "Helvetica Neue", sans-serif;
+
+}
+
+.txinf2 {
+    color: 'black';
+    font-Size: 16px;
+    font-style: normal;
+    font-Weight: '10';
+    margin-top: -20px;
+    font-weight: 100;
+    font-family: "Helvetica Neue", sans-serif;
+
+}
+
+.widthf3 {
+    width: 47%;
+    margin-left: 50px;
+}
+
+.textbhead2 {
+    color: 'black';
+    font-Size: 15 px;
+    font-style: normal;
+    font-Weight: '10';
+    margin-top: -22px;
+    font-family: "Helvetica Neue", sans-serif;
+
+}
+
+.grpdog {
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+}
+
+
+@media (max-width: 768px) {
+    .body {
+        padding: 10px;
+    }
+
+    .mainhead {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .head {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .line {
+        width: 90%;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .frame1, .frame2 {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .img1, .grpdog, .head {
+        width: 70%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -20px;
+    }
+
+    .alignhead, .inf2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .textbhead, .txinf2, .textbhead2 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    .btn, .btn2 {
+        width:fit-content;
+        font-size: 14px;
+    }
+
+    .img1 img, .grpdog img, .head img, .frame2 img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        justify-content: center;
+        
+    }
+    .inf2{
+        align-items: center;
+    }
+    .widthf3{
+        margin-left: 0px;
+        width: auto;
+        align-items:center ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .newgrp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgimp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+        justify-content: center;
+
+    }
+}
+@media (max-width: 768px) {
+    .img1 {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .newframe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ldoggo{
+        margin-bottom: -100px;
+    }
+}

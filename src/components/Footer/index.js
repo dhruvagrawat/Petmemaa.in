@@ -6,7 +6,7 @@ import loc from "../../Assets/Footer/loc.webp";
 import logo from "../../Assets/Footer/logo.webp";
 
 
-import { Title } from "../Home/Pages/Dining/DiningElements";
+
 
 import {
   AboveFooter,
@@ -32,7 +32,7 @@ const Footer = () => {
     <>
       <AboveFooter>
 
-          <Title>Visit Now</Title>
+          
 
       </AboveFooter>
 
@@ -59,17 +59,17 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>About Us</FooterLinkTitle>
-                <FooterLink to="/signin">Services we provide</FooterLink>
-                <FooterLink to="/signin">Feedbacks</FooterLink>
+                <FooterLink to="/">Services we provide</FooterLink>
+                <FooterLink to="/">Feedbacks</FooterLink>
                 <FooterLink to="/cafe">Cafe</FooterLink>
               </FooterLinkItems>
               <FooterLinkItems>
                 <FooterLinkTitle>Quick Links</FooterLinkTitle>
                 <FooterLink to="/contactus">Contact Us</FooterLink>
-                <FooterLink to="/signin">Shipping Policy</FooterLink>
-                <FooterLink to="/signin">Terms and Conditions</FooterLink>
-                <FooterLink to="/signin">Privacy Policy</FooterLink>
-                <FooterLink to="/signin">Refunds/Cancellations</FooterLink>
+                <FooterLink to="/">Shipping Policy</FooterLink>
+                <FooterLink to="/">Terms and Conditions</FooterLink>
+                <FooterLink to="/">Privacy Policy</FooterLink>
+                <FooterLink to="/">Refunds/Cancellations</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
             <SocialMedia>
