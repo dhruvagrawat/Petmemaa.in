@@ -247,7 +247,9 @@
 .socialimg {
   max-width: 70px;
   display: inline-block;
+  padding-right: 50px;
   vertical-align: top;
+
   /* Align the image to the top */
 
 }
@@ -284,6 +286,7 @@
   font-Size: 18px;
   font-style: normal;
   font-Weight: '400';
+  margin-left: 0px;
   font-family: "Helvetica Neue", sans-serif;
 
 }
@@ -298,6 +301,7 @@
   align-items: center;
   margin-top: 40px;
   margin-left: -60px;
+  margin-right: 40px;
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -318,8 +322,8 @@
 
   border-radius: 30px;
   padding: 10px;
-  width: 1200vh ;
-  height:350px;
+  width: 700vh ;
+  height:300px;
 }
 
 .timecss {
@@ -476,22 +480,32 @@
       font-size: 16px;
       margin-left: 0;
       text-align: center;
+      background-color: #FDF2F2;
+      border-radius: 20px;
+      padding: 15px;
   }
 
   .social {
       font-size: 16px;
       margin-top: 20px;
-      margin-left: 0;
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align: center;
+      background-color: #FDF2F2;
+      border-radius: 20px;
+      padding: 20px;
   }
 
   .socialimg {
-      max-width: 50px;
+      max-width: 70px;
+      margin: 0px;
+      padding-right: 0px;
   }
 
   .map_part {
       margin-top: 20px;
       width: 300px;
-      height:300px
+      height:200px
   }
 
   .timecss {

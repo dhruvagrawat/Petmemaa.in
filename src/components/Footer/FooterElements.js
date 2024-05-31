@@ -8,6 +8,7 @@ export const AboveFooter = styled.div`
   width: 80%;
   @media screen and (max-width: 820px) {
     margin-top: 20%;
+    margin-left: 0px;
   }
 `;
 
