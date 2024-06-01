@@ -29,7 +29,7 @@
 .btn,
 .btn2 {
     margin-top: 10px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     width: fit-content;
     background-color: #EDB5B2;
     border: none;
@@ -68,7 +68,7 @@
     color: black;
     font-size: 52px;
     font-weight: 300;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 .textbhead {
@@ -76,7 +76,7 @@
     font-size: 16px;
     font-weight: 300;
     margin-top: -22px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 .alignhead {
@@ -91,7 +91,7 @@
 .frame2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin: 50px 100px;
     padding: 10px;
     border-radius: 40px;
@@ -101,13 +101,14 @@
 .inf2 {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    margin-right: 40px;
+    justify-content: center;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
     padding: 14px;
     border-radius: 40px;
     background-color: #FDF2F2;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -116,7 +117,7 @@
     font-size: 52px;
     font-weight: 300;
     margin-bottom: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 .txinf2 {
@@ -124,7 +125,7 @@
     font-size: 16px;
     font-weight: 300;
     margin-top: -20px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 .widthf3 {
@@ -137,7 +138,7 @@
     font-size: 16px;
     font-weight: 300;
     margin-top: -22px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 .grpdog {
