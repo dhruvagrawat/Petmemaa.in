@@ -39,6 +39,7 @@ const Cafe = () => {
 
             </div>
           </div>
+          <br></br>
           <div className='frame2'>
             <div>
               <img src={human} alt='human'></img>
@@ -53,6 +54,7 @@ const Cafe = () => {
               <button className='btn'>Check out Gallery</button>
             </div>
           </div>
+          <br></br>
           <div className='frame1'>
             <div className='widthf3'>
               <p className='heading'>A Spot for <b>You</b> & <br></br>Your <b>Furry Friend</b></p>
@@ -70,6 +72,7 @@ const Cafe = () => {
               <img className='grpdog' src={grpdog} alt='grpdog'></img>
             </div>
           </div>
+          <br></br>
           <div className='img1'>
             <Link className="imgimp" to="/cafe"> {/* Replace '/menu-page' with the path to your target page */}
               <img src={menu} alt="menu" />
@@ -83,6 +86,7 @@ const Cafe = () => {
               </Link>
 
             </div>
+            <br></br>
             <div className='ldoggo'>
               <img className="img1" src={ldog} alt='lastdog'></img>
             </div>

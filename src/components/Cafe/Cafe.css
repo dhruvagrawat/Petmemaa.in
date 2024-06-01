@@ -169,6 +169,7 @@
         flex-direction: column;
         padding: 10px;
         margin: 20px 15px;
+        align-items: center;
     }
 
     .img1,
@@ -187,16 +188,19 @@
         margin: 10px;
         padding: 10px;
         text-align: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
     }
 
     .heading {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .textbhead,
     .txinf2,
     .textbhead2 {
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 0;
     }
 
@@ -216,6 +220,7 @@
 
     .inf2 {
         align-items: center;
+        max-width: fit-content;
     }
 
     .widthf3 {
@@ -242,9 +247,6 @@
         max-width: 100%;
         justify-content: center;
     }
-}
-
-@media (max-width: 480px) {
     .img1 {
         width: 100%;
         padding: 10px 0;
@@ -274,10 +276,11 @@
     }
 
     .heading {
-        font-size: 24px;
+        font-size: 27px;
     }
 
     .f2head {
-        font-size: 24px;
+        font-size: 27px;
     }
 }
+
