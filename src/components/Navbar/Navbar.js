@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -13,7 +13,6 @@ import MenuItem from "@mui/material/MenuItem";
 import logo from "../../Assets/Intro/Logo.webp";
 import "./Navbar.css";
 
-
 const pages = [
   { name: "Home", path: "/" },
   // { name: "About", path: "/about" },
@@ -25,6 +24,8 @@ const pages = [
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
+  const [activePage, setActivePage] = useState("/");
+  const location = useLocation();
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -33,6 +34,11 @@ function Navbar() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
+
+  // Update active page when location changes
+  React.useEffect(() => {
+    setActivePage(location.pathname);
+  }, [location]);
 
   return (
     <AppBar
@@ -52,7 +58,10 @@ function Navbar() {
             {pages.map((page) => (
               <Button
                 key={page.name}
-                sx={{ mx: 1, color: "black" }}
+                sx={{
+                  mx: 1,
+                  color: page.path === activePage ? "red" : "black" // Change color for active page
+                }}
                 style={{ textTransform: "none", fontSize: "17px" }}
                 component={Link}
                 to={page.path}
