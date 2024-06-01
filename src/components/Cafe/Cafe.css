@@ -3,8 +3,8 @@
     flex-direction: column;
     background: rgb(0, 0, 0);
     background: linear-gradient(285deg, rgba(0, 0, 0, 0) 0%, rgba(255, 239, 239, 0.6125043767507004) 100%);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .mainhead {
