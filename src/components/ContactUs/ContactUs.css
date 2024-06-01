@@ -37,7 +37,7 @@
   font-Size: 50px;
   font-style: normal;
   font-Weight: '600';
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 }
 
 .getxt {
@@ -46,11 +46,11 @@
   font-style: normal;
   font-Weight: '10';
   margin-top: -22px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 }
 
 .firstbtn {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   width: fit-content;
   height: fit-content;
   padding-left: 15px;
@@ -96,7 +96,7 @@
   justify-content: left;
   max-width: 35%;
 
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 }
 
 .head2 {
@@ -110,7 +110,7 @@
   font-style: normal;
   font-Weight: '300'; */
   padding-top: 80px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   padding-bottom: 30px;
   color: black;
   font-size: 28px;
@@ -138,7 +138,7 @@
 .specialtxt {
   color: #EDB5B2;
   font-size: 40px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   margin-top: -20px;
 
 
@@ -147,7 +147,7 @@
 .spltxt {
   color: #000000;
   font-size: 13px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   margin-top: 0px;
 
 }
@@ -199,7 +199,7 @@
 
 .fbtn {
   margin-top: 10px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   width: fit-content;
   background-color: #EDB5B2;
   border: none;
@@ -219,7 +219,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 
 }
 
@@ -227,7 +227,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 }
 
 .grid {
@@ -277,7 +277,7 @@
   font-style: normal;
   font-Weight: '400';
   margin-left: -150px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 
 }
 
@@ -287,7 +287,7 @@
   font-style: normal;
   font-Weight: '400';
   margin-left: 0px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 
 }
 
@@ -302,7 +302,7 @@
   margin-top: 40px;
   margin-left: -60px;
   margin-right: 40px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 }
 
 .innersocail {
@@ -341,7 +341,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
 }
 
 .time {
@@ -350,7 +350,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 200;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   margin-bottom: 60px;
 }
 

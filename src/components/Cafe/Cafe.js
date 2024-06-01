@@ -32,7 +32,7 @@ const Cafe = () => {
             <div className='alignhead'>
               <p className='heading'>Serving up <b>smiles</b>, 🐾🦴🐈<br></br>one <b>paw-some</b> meal at a time.</p>
               {/* <img className='emo' src={emoji} alt='emoji'></img> */}
-              <p className='textbhead'>From gourmet treats to hearty meals, our chefs craft each item with care, using only the finest ingredients to ensure that every bite is both delicious and nutritious.</p>
+              <p className='textbhead'>From gourmet treats to hearty meals, our chefs craft each item with care, <br></br>using only the finest ingredients to ensure that every bite is both delicious and nutritious.</p>
               <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
                 <button className="btn">Book an Appointment</button>
               </a>
@@ -48,7 +48,7 @@ const Cafe = () => {
                 CAFE POOCH
               </h2>
               <p className='txtinf2'>
-                At Cafe Pooch, we believe in fostering a sense of community among pets and  their owners alike. Whether you're looking to socialise with fellow pet enthusiasts or simply enjoy a peaceful moment with your furry friend, our café is the perfect spot to connect and create lasting memories. <br></br>Join us at Cafe Pooch, where every wag and meow is celebrated, and the bond between pets and people is cherished.
+                At Cafe Pooch, we believe in fostering a sense of community among pets and  their owners alike. <br></br>Whether you're looking to socialise with fellow pet enthusiasts or simply enjoy a peaceful moment with your furry friend, <br></br>our café is the perfect spot to connect and create lasting memories. <br></br>Join us at Cafe Pooch, where every wag and meow is celebrated, and the bond between pets and people is cherished.
               </p>
               <button className='btn'>Check out Gallery</button>
             </div>
