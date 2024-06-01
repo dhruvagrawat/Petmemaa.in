@@ -5,8 +5,9 @@ import Navbar from "../src/components/Navbar/Navbar";
 import Footer from "./components/Footer";
 import Menu from "../src/components/Menu/Menu";
 import Cafe from "./components/Cafe/Cafe";
-import Terms from "./components/Footer/Terms";
+import Services from "./components/Services";
 import ContactUs from "./components/ContactUs/ContactUs"
+
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Route path="/contactus" element={<ContactUs />} exact />
         <Route path="/menu" element={<Menu />} exact />
         <Route path="/cafe" element={<Cafe />} exact />
-        <Route path="/termsandservices" element={<Terms />} exact />
+        <Route path="/services" element={<Services />} exact />
       </Routes>
     </Router>
   );

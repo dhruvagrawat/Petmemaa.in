@@ -13,11 +13,12 @@ import MenuItem from "@mui/material/MenuItem";
 import logo from "../../Assets/Intro/Logo.webp";
 import "./Navbar.css";
 
+
 const pages = [
   { name: "Home", path: "/" },
   // { name: "About", path: "/about" },
   { name: "Menu", path: "/menu" },
-  // { name: "Services", path: "/services" },
+  { name: "Services", path: "/services" },
   { name: "Cafe", path: "/cafe" },
   { name: "Contact Us", path: "/contactus" }
 ];
