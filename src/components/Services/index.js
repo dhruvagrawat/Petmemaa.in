@@ -28,9 +28,7 @@ const Services = () => {
     <>
       <Navbar />
       <div className='body'>
-
         <div className='frame1'>
-
           <div>
             <p>Our Services</p>
             <p>We understand that pets are more than just companions, they're family.That's why we offer a complete suite of services designed to keep your furry friend happy, healthy, and entertained</p>
@@ -90,14 +88,14 @@ const Services = () => {
             <button className='btn'>Schedule an appointment</button>
           </div>
         </div>
-        <div>
+        <div className='mainhead'>
           <img className='head2' src={midassest} alt='mid' />
         </div>
 
         <div className='frame1'>
-          
+
           <div>
-          <p>Pet Grooming 🐩🐶🦮</p>
+            <p>Pet Grooming 🐩🐶🦮</p>
             <b>Tailored Services</b>: From a simple bath to a full-blown haircut, we offer a variety of
             services to suit your pet's needs and breed.
             <br></br>
@@ -235,7 +233,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div>
+        <div className='mainhead'>
           <img className='head2' src={cafer} alt='cafer' />
         </div>
 
