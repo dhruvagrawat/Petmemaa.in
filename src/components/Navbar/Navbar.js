@@ -16,9 +16,9 @@ import "./Navbar.css";
 const pages = [
   { name: "Home", path: "/" },
   // { name: "About", path: "/about" },
-  { name: "Menu", path: "/cafe" },
+  { name: "Menu", path: "/menu" },
   // { name: "Services", path: "/services" },
-  { name: "Cafe", path: "/comingsoon" },
+  { name: "Cafe", path: "/cafe" },
   { name: "Contact Us", path: "/contactus" }
 ];
 

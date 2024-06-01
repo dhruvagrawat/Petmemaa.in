@@ -24,8 +24,8 @@ function App() {
           exact
         />
         <Route path="/contactus" element={<ContactUs />} exact />
-        <Route path="/cafe" element={<Menu />} exact />
-        <Route path="/comingsoon" element={<Cafe />} exact />
+        <Route path="/menu" element={<Menu />} exact />
+        <Route path="/cafe" element={<Cafe />} exact />
         <Route path="/termsandservices" element={<Terms />} exact />
       </Routes>
     </Router>
