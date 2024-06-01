@@ -46,7 +46,7 @@ const Cafe = () => {
             </div>
             <div className='inf2'>
               <h2 className='f2head'>
-                CAFE POOCH
+                <b>CAFE POOCH</b>
               </h2>
               <p className='txtinf2'>
                 At Cafe Pooch, we believe in fostering a sense of community among pets and  their owners alike. <br></br>Whether you're looking to socialise with fellow pet enthusiasts or simply enjoy a peaceful moment with your furry friend, <br></br>our café is the perfect spot to connect and create lasting memories. <br></br>Join us at Cafe Pooch, where every wag and meow is celebrated, and the bond between pets and people is cherished.
