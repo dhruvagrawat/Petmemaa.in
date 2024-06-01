@@ -34,15 +34,16 @@
 
 .get {
   color: 'black';
-  font-Size: 50px;
+  font-Size: 52px;
   font-style: normal;
-  font-Weight: '600';
+  font-Weight: '300';
   font-family: "Roboto";
 }
 
 .getxt {
   color: 'black';
   font-Size: 16px;
+  font-weight: 300;
   font-style: normal;
   font-Weight: '10';
   margin-top: -22px;
@@ -113,8 +114,8 @@
   font-family: "Roboto";
   padding-bottom: 30px;
   color: black;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 300;
   word-wrap: break-word;
   text-align: center;
   line-height: 1.2;
@@ -137,18 +138,19 @@
 
 .specialtxt {
   color: #EDB5B2;
-  font-size: 40px;
+  font-size: 52px;
   font-family: "Roboto";
   margin-top: -20px;
+  font-weight: 300;
 
 
 }
 
 .spltxt {
   color: #000000;
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Roboto";
-  margin-top: 0px;
+  margin-top: -20px;
 
 }
 
@@ -224,9 +226,9 @@
 }
 
 .callsec {
-  font-size: 24px;
+  font-size: 30px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-family: "Roboto";
 }
 
@@ -269,13 +271,14 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
+  
 }
 
 .add {
   color: 'black';
-  font-Size: 18px;
+  font-Size: 16px;
   font-style: normal;
-  font-Weight: '400';
+  font-Weight: 300;
   margin-left: -150px;
   font-family: "Roboto";
 
@@ -283,9 +286,9 @@
 
 .mail {
   color: 'black';
-  font-Size: 18px;
+  font-Size: 16px;
   font-style: normal;
-  font-Weight: '400';
+  font-Weight: 300;
   margin-left: 0px;
   font-family: "Roboto";
 
@@ -295,9 +298,9 @@
   color: 'black';
   display: flex;
   flex-direction: column;
-  font-Size: 18px;
+  font-Size: 16px;
   font-style: normal;
-  font-Weight: '400';
+  font-Weight: 300;
   align-items: center;
   margin-top: 40px;
   margin-left: -60px;
@@ -338,9 +341,9 @@
 
 .thead {
   color: black;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-family: "Roboto";
 }
 
@@ -349,7 +352,7 @@
   color: black;
   font-size: 16px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
   font-family: "Roboto";
   margin-bottom: 60px;
 }
@@ -372,7 +375,7 @@
   }
 
   .get {
-      font-size: 28px;
+      font-size: 27px;
   }
 
   .getxt {
@@ -401,7 +404,7 @@
 
   .head2 {
       padding-top: 40px;
-      font-size: 24px;
+      font-size: 27px;
       padding-left: 20px;
       padding-right: 20px;
   }
@@ -425,7 +428,8 @@
   }
 
   .spltxt {
-      font-size: 12px;
+      font-size: 14px;
+      margin-top: 0px;
   }
 
   .contactFormContainer {
@@ -452,7 +456,7 @@
   }
 
   .callsec {
-      font-size: 20px;
+      font-size: 24px;
   }
 
   .grid {
@@ -477,7 +481,7 @@
   }
 
   .add, .mail {
-      font-size: 16px;
+      font-size: 14px;
       margin-left: 0;
       text-align: center;
       background-color: #FDF2F2;
@@ -486,7 +490,7 @@
   }
 
   .social {
-      font-size: 16px;
+      font-size: 14px;
       margin-top: 20px;
       margin-left: 0px;
       margin-right: 0px;
