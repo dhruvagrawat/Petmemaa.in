@@ -57,6 +57,8 @@ const Cafe = () => {
           <br></br>
           <div className='frame1'>
             <div className='widthf3'>
+              <br></br>
+              <br></br>
               <p className='heading'>A Spot for <b>You</b> & <br></br>Your <b>Furry Friend</b></p>
               <p className='textbhead2'>Cafe Pooch isn't just a coffee shop, it's a tail-wagging good time for you and your furry best friend!
                 <br></br>
