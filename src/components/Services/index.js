@@ -175,8 +175,8 @@ const Services = () => {
             <div className='slcon'>
               <img className='imgfun' src={fun4} alt='fun14' />
               <div className='slincon'>
-                <p className='text'>Enrichment activities with other furry friends</p>
-                <p className='text5'>Fun & Games</p>
+                <p className='text'>Fun & Games</p>
+                <p className='text5'>Enrichment activities with other furry friends</p>
                 <img className='line2' src={maskfun} alt='maskfun' />
               </div>
             </div>

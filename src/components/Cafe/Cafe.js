@@ -51,7 +51,9 @@ const Cafe = () => {
               <p className='txtinf2'>
                 At Cafe Pooch, we believe in fostering a sense of community among pets and  their owners alike. <br></br>Whether you're looking to socialise with fellow pet enthusiasts or simply enjoy a peaceful moment with your furry friend, <br></br>our café is the perfect spot to connect and create lasting memories. <br></br>Join us at Cafe Pooch, where every wag and meow is celebrated, and the bond between pets and people is cherished.
               </p>
-              <button className='btn'>Check out Gallery</button>
+              <Link to="/services">
+                <button className='btn'>Check out Gallery</button>
+              </Link>
             </div>
           </div>
           <br></br>
