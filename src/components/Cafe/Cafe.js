@@ -34,7 +34,7 @@ const Cafe = () => {
               {/* <img className='emo' src={emoji} alt='emoji'></img> */}
               <p className='textbhead'>From gourmet treats to hearty meals, our chefs craft each item with care, <br></br>using only the finest ingredients to ensure that every bite is both delicious and nutritious.</p>
               <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
-                <button className="btn">Book an Appointment</button>
+                <button className='btn'>Book a Reservation Now</button>
               </a>
 
             </div>

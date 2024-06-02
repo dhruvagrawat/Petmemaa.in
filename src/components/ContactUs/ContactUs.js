@@ -87,7 +87,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="callcon">
-              <h3 className="callsec"> <b>🐾 Call Us: +91-8826791521 🦴</b></h3>
+              <h3 className="callsec"> <b>🐾  Call Us: +91-8826791521  🦴</b></h3>
             </div>
             <div className="grid">
               <div>

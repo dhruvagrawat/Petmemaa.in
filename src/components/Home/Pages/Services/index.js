@@ -48,8 +48,8 @@ const Services = () => {
                 exercise, and relax under the supervision of our caring staff.
               </SubText>
               <StyledLink
-                to="https://styled-components.com/docs/basics"
-                target="_blank"
+                to="/services"
+                target="/services"
               >
                 View Services ›
               </StyledLink>
@@ -65,8 +65,8 @@ const Services = () => {
                 healthy.
               </SubText>
               <StyledLink
-                to="https://styled-components.com/docs/basics"
-                target="_blank"
+                to="/services"
+                target="/services"
               >
                 View Services ›
               </StyledLink>
@@ -90,8 +90,8 @@ const Services = () => {
                 relaxation, rejuvenation, and overall well-being.
               </SubText>
               <StyledLink
-                to="https://styled-components.com/docs/basics"
-                target="_blank"
+                to="/services"
+                target="/services"
               >
                 View Services ›
               </StyledLink>
@@ -107,8 +107,8 @@ const Services = () => {
                 pet.
               </SubText>
               <StyledLink
-                to="https://styled-components.com/docs/basics"
-                target="_blank"
+                to="/services"
+                target="/services"
               >
                 View Services ›
               </StyledLink>

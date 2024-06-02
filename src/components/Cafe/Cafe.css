@@ -1,7 +1,7 @@
 
 @import "~@fontsource/m-plus-rounded-1c/index.css";
 
-body {
+.body {
     font-family: "M PLUS Rounded 1c", sans-serif;
 }
 .body {
@@ -191,7 +191,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: -20px;
+        /* margin-bottom: -20px; */
     }
 
     .alignhead,
@@ -279,7 +279,7 @@ body {
     }
 
     .ldoggo {
-        margin-bottom: -100px;
+        /* margin-bottom: 100px; */
     }
 
     .grpdog {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 import {
   SecondaryContainer,
@@ -26,9 +27,12 @@ const Secondary = () => {
             offer more than just grooming and boarding services- to become a
             second home for our furry family members.
           </Heading>
+          {/* Use Link component to create a link */}
+          <Link to="/services">
             <ContactBtn>
               <h3>Know More ›</h3>
             </ContactBtn>
+          </Link>
         </ContentContainer>
       </SecondaryWrapper>
     </SecondaryContainer>
