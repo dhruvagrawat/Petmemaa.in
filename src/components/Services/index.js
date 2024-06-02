@@ -29,7 +29,8 @@ const Services = () => {
   return (
     <>
       <Navbar />
-      <div className='body'>
+      <p>Coming Soon</p>
+      {/* <div className='body'>
         <div className='frame1'>
           <div>
             <p>Our Services</p>
@@ -279,7 +280,7 @@ const Services = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
 
       <Footer />
     </>
