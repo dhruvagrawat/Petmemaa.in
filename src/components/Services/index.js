@@ -149,7 +149,7 @@ const Services = () => {
             <div className='slcon'>
               <img className="imgfun" src={fun1} alt='fun1' />
               <div className='slincon'>
-                <p className='text'><b>Spacious Playgrounds</b></p>
+                <p className='funtext'><b>Spacious Playgrounds</b></p>
                 <p className='text5'>Spacious play areas, both indoors and outdoors</p>
                 <img className="line2" src={maskfun} alt='maskfun' />
               </div>
@@ -157,7 +157,7 @@ const Services = () => {
             <div className='slcon'>
               <img className="imgfun" src={fun2} alt='fun12' />
               <div className='slincon'>
-                <p className='text'><b>Socialization Pool</b></p>
+                <p className='funtext'><b>Socialization Pool</b></p>
                 <p className='text5'>Designated Pools for a refreshing dip</p>
                 <img className='line2' src={maskfun} alt='maskfun' />
               </div>
@@ -167,7 +167,7 @@ const Services = () => {
             <div className='slcon'>
               <img className='imgfun' src={fun3} alt='fun13' />
               <div className='slincon'>
-                <p className='text' >Safe & Secure</p>
+                <p className='funtext' >Safe & Secure</p>
                 <p className='text5'>Keeping your pet feeling relaxed and loved</p>
                 <img className='line2' src={maskfun} alt='maskfun' />
               </div>
@@ -175,7 +175,7 @@ const Services = () => {
             <div className='slcon'>
               <img className='imgfun' src={fun4} alt='fun14' />
               <div className='slincon'>
-                <p className='text'>Fun & Games</p>
+                <p className='funtext'>Fun & Games</p>
                 <p className='text5'>Enrichment activities with other furry friends</p>
                 <img className='line2' src={maskfun} alt='maskfun' />
               </div>

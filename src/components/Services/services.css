@@ -156,6 +156,11 @@
 
 
 }
+.funtext{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .imgr {
     display: flex;
@@ -436,6 +441,9 @@
     .imgfun{
         width:350px;
     }
+    .funtext{
+        margin-top: 10px;
+    }
     .textnew{
         
         margin-right: 0px;
@@ -445,6 +453,9 @@
     .headingnew{
         margin-top: -20px;
         margin-right: 0px;
+    }
+    .text5{
+        margin-top: -10px;
     }
 
 
