@@ -30,7 +30,7 @@ const Secondary = () => {
           {/* Use Link component to create a link */}
           <Link to="/services">
             <ContactBtn>
-              <h3>Know More ›</h3>
+              <h3>Know More</h3>
             </ContactBtn>
           </Link>
         </ContentContainer>

@@ -6,6 +6,7 @@ import './Cafe.css';
 
 //assests import
 import head from '../../Assets/Cafe/head.png';
+import mobilew from '../../Assets/Cafe/mobilew.png';
 import line from '../../Assets/Cafe/line.png';
 import dogbowl from '../../Assets/Cafe/dogbowl.png';
 // import emoji from '../../Assets/Cafe/emoji.png';
@@ -22,6 +23,7 @@ const Cafe = () => {
       <div className='body'>
         <div className='mainhead'>
           <img className="head" src={head} alt='head'></img>
+          <img className="mobilew" src={mobilew} alt='mobilew'></img>
           <img className='line' src={line} alt='line'></img>
         </div>
         <div>
@@ -30,7 +32,7 @@ const Cafe = () => {
               <img className="" src={dogbowl} alt='dogbowl'></img>
             </div>
             <div className='alignhead'>
-              <p className='heading'>Serving up <b>Smiles</b>, 🐾🦴🐈<br></br>one <b>Paw-some</b> meal at a time.</p>
+              <span className='heading'>Serving up <b>Smiles</b>, 🐾🦴🐈<br></br>one <b>Paw-some</b> meal at a time.</span>
               {/* <img className='emo' src={emoji} alt='emoji'></img> */}
               <p className='textbhead'>From gourmet treats to hearty meals, our chefs craft each item with care, <br></br>using only the finest ingredients to ensure that every bite is both delicious and nutritious.</p>
               <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">

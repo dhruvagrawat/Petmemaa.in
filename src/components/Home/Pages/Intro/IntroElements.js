@@ -126,8 +126,11 @@ export const ContactBtn = styled.button`
   color: #FFF;
   border-radius: 110px;
   border: none;
-  width: 35%;
+  width: 100%;
   height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+
   margin-right: 10%;
   margin-top: 5%;
   &:hover {
