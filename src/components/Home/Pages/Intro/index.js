@@ -45,11 +45,11 @@ const InfoSection = () => {
             <Column1>
               <TextWrapper>
                 <TopLine>
-                  World of <TopLineBold>Wonders,</TopLineBold>
+                  World of <TopLineBold><b>Wonders,</b></TopLineBold>
                   <br />
                   <GifWrap src={puppies} alt="loading..." />{" "}
-                  <TopLineBold>Whiskers</TopLineBold> and{" "}
-                  <TopLineBold>Wagging Tails</TopLineBold>
+                  <TopLineBold><b>Whiskers</b></TopLineBold> and{" "}
+                  <TopLineBold><b>Wagging Tails</b></TopLineBold>
                 </TopLine>
                 <Heading>
                   Pet Me Maa is born out of a deep-seated love for animals and a

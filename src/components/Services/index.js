@@ -3,6 +3,7 @@ import Footer from '../Footer'
 import Navbar from '../Navbar/Navbar'
 import '../Services/services.css'
 
+
 // asset imports 
 import head from "../../Assets/Cafe/head.png"
 import line from "../../Assets/Cafe/line.png"
@@ -20,6 +21,7 @@ import mand from '../../Assets/Pageservices/mand.png'
 import midassest from '../../Assets/Pageservices/midassest.png'
 import top from '../../Assets/Pageservices/top.png'
 import vet from '../../Assets/Pageservices/vet.png'
+import maskfun from '../../Assets/Pageservices/maskfun.png'
 
 
 
@@ -43,8 +45,8 @@ const Services = () => {
             <img src={house} alt='house' />
           </div>
           <div>
-            <p>Pet Boarding🏠🐶🐾</p>
-            <p>A place where pets have their own pawsome staycation! We're not
+            <p className='pinkhead'>Pet Boarding🏠🐶🐾</p>
+            <p className='txt'> A place where pets have their own pawsome staycation! We're not
               just a pet boarding facility, we're a home away from home filled with
               fun, cuddles, and all the love your pet deserves.
               <br></br>
@@ -127,7 +129,7 @@ const Services = () => {
             <img className='vector' src={vector2} alt='vector' />
           </div>
           <div>
-            <p><b>Unleash the Fun</b>
+            <p className='heading'><b>Unleash the Fun</b>
               <br></br>
 
               Playground and Pool</p>
@@ -147,13 +149,13 @@ const Services = () => {
               <img src={fun1} alt='fun1' />
               <p>Spacious Playgrounds</p>
               <p>Spacious play areas, both indoors and outdoors</p>
-              {/* img */}
+              <img src={maskfun} alt='maskfun' />
             </div>
             <div>
               <img src={fun2} alt='fun12' />
               <p>Socialization Pool</p>
               <p>Designated Pools for a refreshing dip</p>
-              {/* img */}
+              <img src={maskfun} alt='maskfun' />
             </div>
           </div>
           <div className='funb'>
@@ -161,13 +163,13 @@ const Services = () => {
               <img src={fun3} alt='fun13' />
               <p>Safe & Secure</p>
               <p>Keeping your pet feeling relaxed and loved</p>
-              {/* img */}
+              <img src={maskfun} alt='maskfun' />
             </div>
             <div>
               <img src={fun4} alt='fun14' />
               <p>Enrichment activities with other furry friends</p>
               <p>Fun & Games</p>
-              {/* img */}
+              <img src={maskfun} alt='maskfun' />
             </div>
           </div>
         </div>
@@ -177,7 +179,7 @@ const Services = () => {
             <img src={vet} alt='vet' />
           </div>
           <div>
-            <p>
+            <p className='pinkhead'>
               Veterinary Consultation
             </p>
             <p>Here's why we're the purrfect choice for your pet's well-being:

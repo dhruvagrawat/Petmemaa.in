@@ -1,3 +1,9 @@
+
+@import "~@fontsource/m-plus-rounded-1c/index.css";
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
 .body {
     display: flex;
     flex-direction: column;
@@ -29,7 +35,7 @@
 .btn,
 .btn2 {
     margin-top: 10px;
-    font-family: 'Roboto', sans-serif;
+    
     width: fit-content;
     background-color: #EDB5B2;
     border: none;
@@ -68,15 +74,15 @@
     color: black;
     font-size: 52px;
     font-weight: 250;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .textbhead {
     color: black;
     font-size: 16px;
     font-weight: 300;
-    margin-top: -22px;
-    font-family: 'Roboto', sans-serif;
+    
+    
 }
 
 .alignhead {
@@ -108,24 +114,24 @@
     padding: 14px;
     border-radius: 40px;
     background-color: #FDF2F2;
-    font-family: 'Roboto', sans-serif;
+    
     
 }
 
 .f2head {
     color: #F58F9D;
     font-size: 52px;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .txinf2 {
     
     font-size: 16px;
     font-weight: 300;
-    margin-top: -20px;
-    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+    
 }
 
 .widthf3 {
@@ -137,8 +143,8 @@
     color: black;
     font-size: 16px;
     font-weight: 300;
-    margin-top: -22px;
-    font-family: 'Roboto', sans-serif;
+    
+    
 }
 
 .grpdog {

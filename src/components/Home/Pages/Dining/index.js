@@ -79,7 +79,7 @@ const Dining = () => {
         </DiningWrapper> */}
 
         <DiningWrapper2>
-          <Title> Get Started Now</Title>
+          <Title> <b>Get Started Now</b></Title>
           <SubText2>By Signing Up</SubText2>
           <br />
           <br />

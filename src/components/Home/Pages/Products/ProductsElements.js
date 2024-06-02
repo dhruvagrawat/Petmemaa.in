@@ -149,6 +149,7 @@ export const GetNowBtn = styled.button`
   border: 1px solid #f7b2b0;
   border-radius: 110px;
   box-sizing: border-box;
+  color: #FFF;
   width: 50%;
   height: 48px;
 

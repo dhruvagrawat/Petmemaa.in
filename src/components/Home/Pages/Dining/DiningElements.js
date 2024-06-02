@@ -85,7 +85,7 @@ export const DiningBtn = styled.button`
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #6db3d7;
+  color: #fff;
 `;
 
 export const DiningImage = styled.img`
@@ -145,6 +145,7 @@ export const DiningBtn2 = styled.button`
   background: #f7b2b0;
   border-radius: 110px;
   border: none;
+  color: #fff;  
   width: 130%;
   height: 50px;
   &:hover {

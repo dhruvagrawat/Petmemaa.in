@@ -53,6 +53,7 @@ export const TopLine2 = styled.p`
 export const ContactBtn = styled.button`
   background: #f7b2b0;
   border-radius: 110px;
+  color: #fff;
   border: none;
   width: 35%;
   height: 50px;

@@ -48,6 +48,7 @@ export const SubText = styled.p`
   font-weight: 400;
   font-size: 25px;
   line-height: 19.5%;
+ 
   color: rgba(0, 0, 0, 0.5);
   @media screen and (max-width: 820px) {
     font-size: 13px;
@@ -62,6 +63,7 @@ export const TextBox = styled.input`
   border: 1px dashed rgba(255, 194, 2, 0.5);
   border-radius: 8px;
   margin-top: 5%;
+  padding-left: 10px;
   @media screen and (max-width: 820px) {
     width: 300px;
   }
@@ -74,6 +76,7 @@ export const FeedbackBox = styled.input`
   background: #f9f9f9;
   border: 1px dashed rgba(255, 194, 2, 0.5);
   border-radius: 8px;
+  padding-left: 10px;
   margin-top: 5%;
   @media screen and (max-width: 820px) {
     width: 300px;
@@ -86,6 +89,7 @@ export const FeedbackBtn = styled.button`
   border: none;
   width: 35%;
   height: 50px;
+  color: #FFF;
 
   @media screen and (max-width: 820px) {
     width: 60%;

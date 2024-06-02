@@ -46,7 +46,7 @@ const Customers = () => {
           <CustomersRow>
             <Column1>
               <Title>
-                What our <FaHeart style={{ color: "red" }} /> customers say!
+                <b>What our</b> <FaHeart style={{ color: "red" }} /> <b>customers say!</b>
               </Title>
             </Column1>
             <Column2>

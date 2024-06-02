@@ -123,6 +123,7 @@ export const GifWrap = styled.img`
 
 export const ContactBtn = styled.button`
   background: #f7b2b0;
+  color: #FFF;
   border-radius: 110px;
   border: none;
   width: 35%;

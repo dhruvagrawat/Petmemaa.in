@@ -26,7 +26,7 @@ const Services = () => {
   return (
     <>
       <TitleContainer>
-        <Title>Our Services</Title>
+        <Title><b>Our Services</b></Title>
         <SubText>
           At Pet Me Maa, we pamper pets like royalty because even fur babies
           deserve a good hair day and a wagging tail time!
@@ -40,7 +40,7 @@ const Services = () => {
               <img src={services1} style={{ width: "100%" }} alt="services1" />
             </Column1>
             <Column2>
-              <TitleServices>Pet Boarding</TitleServices>
+              <TitleServices><b>Pet Boarding</b></TitleServices>
               <SubText>
                 Planning a trip or need a safe place for your pet to stay while
                 you're at work? Our boarding and daycare facilities provide a
@@ -56,7 +56,7 @@ const Services = () => {
             </Column2>
 
             <Column3>
-              <TitleServices>Veterinary Consultation</TitleServices>
+              <TitleServices><b>Veterinary Consultation</b></TitleServices>
               <SubText>
                 We provide top-tier veterinary consultations with a focus on
                 your pet's well-being. Our team of dedicated and experienced
@@ -79,7 +79,7 @@ const Services = () => {
               <img src={services3} style={{ width: "100%" }} alt="services1" />
             </Column5>
             <Column6>
-              <TitleServices>Pet Grooming</TitleServices>
+              <TitleServices><b>Pet Grooming</b></TitleServices>
               <SubText>
                 Treat your pet to a day of pampering with our professional
                 grooming services. From baths and brush-outs to breed-specific
@@ -98,7 +98,7 @@ const Services = () => {
             </Column6>
 
             <Column7>
-              <TitleServices>Pet Schooling</TitleServices>
+              <TitleServices><b>Pet Schooling</b></TitleServices>
               <SubText>
                 Training and playtime are not only fun for your pet but also
                 essential for their overall health and well-being. Regular

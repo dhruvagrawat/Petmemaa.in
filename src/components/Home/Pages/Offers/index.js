@@ -53,7 +53,7 @@ const Offers = () => {
   return (
     <>
       <TitleContainer>
-        <Title>Our Offers</Title>
+        <Title><b>Our Offers</b></Title>
         <SubText>
           Explore our exclusive offers designed to enhance the bond between you
           and your furry companions while providing valuable savings and

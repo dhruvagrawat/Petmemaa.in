@@ -1,3 +1,9 @@
+
+@import "~@fontsource/m-plus-rounded-1c/index.css";
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
 /* In your CSS file or component styles */
 
 
@@ -36,8 +42,8 @@
   color: 'black';
   font-Size: 52px;
   font-style: normal;
-  font-Weight: '300';
-  font-family: 'Roboto', sans-serif;
+  font-Weight: 300;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .getxt {
@@ -47,11 +53,11 @@
   font-style: normal;
   font-Weight: '10';
   margin-top: -22px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .firstbtn {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   width: fit-content;
   height: fit-content;
   padding-left: 15px;
@@ -97,7 +103,7 @@
   justify-content: left;
   max-width: 35%;
 
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .head2 {
@@ -111,7 +117,7 @@
   font-style: normal;
   font-Weight: '300'; */
   padding-top: 80px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   padding-bottom: 30px;
   color: black;
   font-size: 30px;
@@ -139,7 +145,7 @@
 .specialtxt {
   color: #EDB5B2;
   font-size: 52px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   margin-top: -20px;
   font-weight: 300;
 
@@ -149,7 +155,7 @@
 .spltxt {
   color: #000000;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   margin-top: -20px;
 
 }
@@ -201,7 +207,7 @@
 
 .fbtn {
   margin-top: 10px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   width: fit-content;
   background-color: #EDB5B2;
   border: none;
@@ -221,7 +227,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 
 }
 
@@ -229,7 +235,7 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .grid {
@@ -280,7 +286,7 @@
   font-style: normal;
   font-Weight: 300;
   margin-left: -150px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 
 }
 
@@ -290,7 +296,7 @@
   font-style: normal;
   font-Weight: 300;
   margin-left: 0px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 
 }
 
@@ -305,7 +311,7 @@
   margin-top: 40px;
   margin-left: -60px;
   margin-right: 40px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .innersocail {
@@ -344,7 +350,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 .time {
@@ -353,7 +359,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   margin-bottom: 60px;
 }
 
