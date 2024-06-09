@@ -19,7 +19,7 @@ import fun4 from '../../Assets/Pageservices/fun4.png'
 import groom from '../../Assets/Pageservices/groom.png'
 import house from '../../Assets/Pageservices/house.png'
 import mand from '../../Assets/Pageservices/mand.png'
-import midassest from '../../Assets/Pageservices/midassest.png'
+
 import top from '../../Assets/Pageservices/top.png'
 import vet from '../../Assets/Pageservices/vet.png'
 import maskfun from '../../Assets/Pageservices/maskfun.png'
@@ -41,92 +41,7 @@ const Services = () => {
           </div>
 
         </div>
-        <br></br>
-        <div className='frame2'>
-          <div className='imgbox2'>
-            <img className=" imgsl" src={house} alt='house' />
-          </div>
-          <div className='rights'>
-            <p className='pinkhead'><b>Pet Boarding 🏠 🐶 🐾</b></p>
-            <p className='text'> A place where pets have their own pawsome staycation! We're not
-              just a pet boarding facility, we're a home away from home filled with
-              fun, cuddles, and all the love your pet deserves.
-              <br></br>
-
-              Here's why your pet will love staying with us:
-              <br></br>
-              <br></br>
-
-
-              <b>Playful Adventures:</b> Spacious play areas, both indoors and
-              outdoors, for your pup to zoom around or your kitty to explore.
-              <br></br>
-              <br></br>
-
-
-              <b>Cozy Comforts: </b>Comfy beds, personalized attention, and plenty of
-              belly rubs to keep your pet feeling relaxed and loved.
-              <br></br>
-              <br></br>
-
-
-              <b>Safe & Secure:</b> Peace of mind knowing your pet is in a
-              safe, supervised environment. We have separate areas for dogs and
-              cats, and our staff is trained in pet care and safety.
-              <br></br>
-              <br></br>
-
-
-              <b>Fun & Games:</b> Enrichment activities like puzzle toys, playtime with
-              other furry friends (upon approval), and even pool dips (for the pups
-              who love to splash!)
-              <br></br>
-              <br></br>
-
-
-              <b>Home Away From Home Touches:</b> We can personalize your pet's stay
-              with familiar toys, treats you provide, and even video calls so you can
-              check in on their wagging tails or purrfect naps!</p>
-
-            <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
-              <button className='btn'>Schedule an appointment</button>
-            </a>
-          </div>
-        </div>
-        <div className='mainhead'>
-          <img className='head2' src={midassest} alt='mid' />
-        </div>
-
-        <div className='frame4'>
-
-          <div className='rights'>
-            <p className='pinkhead'><b>Pet Grooming 🐩 🐶 🦮</b>
-            </p>
-
-            <p className='text2'>
-              <b >Tailored Services</b>: From a simple bath to a full-blown haircut, we offer a variety of
-              services to suit your pet's needs and breed.
-              <br></br>
-              <br></br>
-              <b>Gentle & Expert Care:</b> Our groomers are highly trained and passionate about animal
-              care. They'll handle your pet with the utmost gentleness while achieving a flawless and
-              stylish look.
-              <br></br>
-              <br></br>
-              <b>Happy & Healthy Results:</b> We use top-of-the-line pet products to ensure a healthy and
-              radiant coat. Your pet will leave feeling refreshed, pampered, and looking their absolute
-              best!
-            </p>
-            <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
-              <button className='btn'>Schedule an appointment</button>
-            </a>
-          </div>
-          <div className='imgbox2'>
-            <img className='imgr' src={groom} alt='groom' />
-
-          </div>
-        </div>
-
+     
         <div className='frame3'>
           <div className='flexitem .item1'>
             <img className='vector' src={vector2} alt='vector' />
@@ -183,7 +98,91 @@ const Services = () => {
           </div>
         </div>
 
-        <div className='frame2'>
+        <div className='frame2' id='petboard' >
+          <div className='imgbox2'>
+            <img className=" imgsl" src={house} alt='house' />
+          </div>
+          <div className='rights'>
+            <p className='pinkhead' ><b>Pet Boarding 🏠 🐶 🐾</b></p>
+            <p className='text'> A place where pets have their own pawsome staycation! We're not
+              just a pet boarding facility, we're a home away from home filled with
+              fun, cuddles, and all the love your pet deserves.
+              <br></br>
+
+              Here's why your pet will love staying with us:
+              <br></br>
+              <br></br>
+
+
+              <b>Playful Adventures:</b> Spacious play areas, both indoors and
+              outdoors, for your pup to zoom around or your kitty to explore.
+              <br></br>
+              <br></br>
+
+
+              <b>Cozy Comforts: </b>Comfy beds, personalized attention, and plenty of
+              belly rubs to keep your pet feeling relaxed and loved.
+              <br></br>
+              <br></br>
+
+
+              <b>Safe & Secure:</b> Peace of mind knowing your pet is in a
+              safe, supervised environment. We have separate areas for dogs and
+              cats, and our staff is trained in pet care and safety.
+              <br></br>
+              <br></br>
+
+
+              <b>Fun & Games:</b> Enrichment activities like puzzle toys, playtime with
+              other furry friends (upon approval), and even pool dips (for the pups
+              who love to splash!)
+              <br></br>
+              <br></br>
+
+
+              <b>Home Away From Home Touches:</b> We can personalize your pet's stay
+              with familiar toys, treats you provide, and even video calls so you can
+              check in on their wagging tails or purrfect naps!</p>
+
+            <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
+              <button className='btn'>Schedule an appointment</button>
+            </a>
+          </div>
+        </div>
+        
+
+        <div className='frame4' id='petgroom' >
+
+          <div className='rights'>
+            <p className='pinkhead' ><b>Pet Grooming 🐩 🐶 🦮</b>
+            </p>
+
+            <p className='text2'>
+              <b >Tailored Services</b>: From a simple bath to a full-blown haircut, we offer a variety of
+              services to suit your pet's needs and breed.
+              <br></br>
+              <br></br>
+              <b>Gentle & Expert Care:</b> Our groomers are highly trained and passionate about animal
+              care. They'll handle your pet with the utmost gentleness while achieving a flawless and
+              stylish look.
+              <br></br>
+              <br></br>
+              <b>Happy & Healthy Results:</b> We use top-of-the-line pet products to ensure a healthy and
+              radiant coat. Your pet will leave feeling refreshed, pampered, and looking their absolute
+              best!
+            </p>
+            <a href="https://wa.me/message/4ODVQUII4OFVD1" target="_blank" rel="noopener noreferrer">
+              <button className='btn'>Schedule an appointment</button>
+            </a>
+          </div>
+          <div className='imgbox2'>
+            <img className='imgr' src={groom} alt='groom' />
+
+          </div>
+        </div>
+
+        
+        <div className='frame2' id='vet' >
           <div className='imgbox2'>
             <img className="imgsl" src={vet} alt='vet' />
           </div>
@@ -219,9 +218,9 @@ const Services = () => {
           </div>
         </div>
 
-        <div className='frame1'>
+        <div className='frame1' id='petschool' >
           <div className='rights'>
-            <p className='heading'><b>Pet Schooling 🏫 🐶 🐾</b></p>
+            <p className='heading' ><b>Pet Schooling 🏫 🐶 🐾</b></p>
             <p className='text'>Does your furry friend have a thirst for knowledge
               (and maybe a few treats)? At The Wags & Whiskers Wisdom School, we
               believe every pet deserves a chance to learn and grow!

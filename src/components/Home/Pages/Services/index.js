@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import services1 from "../../../../Assets/Services/services1.webp";
 import services2 from "../../../../Assets/Services/services2.webp";
 import services3 from "../../../../Assets/Services/services3.webp";
@@ -19,7 +20,6 @@ import {
   Column8,
   TitleServices,
   TitleContainer,
-  StyledLink,
 } from "./ServiceElements";
 
 const Services = () => {
@@ -47,12 +47,9 @@ const Services = () => {
                 comfortable and secure environment where your pet can socialize,
                 exercise, and relax under the supervision of our caring staff.
               </SubText>
-              <StyledLink
-                to="/services"
-                target="/services"
-              >
+              <Link to="/services#petboard" style={{ color: '#f7b2b0', fontWeight: 'bold', textDecoration: 'none' }}>
                 View Services ›
-              </StyledLink>
+              </Link>
             </Column2>
 
             <Column3>
@@ -64,12 +61,9 @@ const Services = () => {
                 expert advice to keep your furry family members happy and
                 healthy.
               </SubText>
-              <StyledLink
-                to="/services"
-                target="/services"
-              >
+              <Link to="/services#vet" style={{ color: '#f7b2b0', fontWeight: 'bold', textDecoration: 'none' }}>
                 View Services ›
-              </StyledLink>
+              </Link>
             </Column3>
             <Column4>
               <img src={services2} style={{ width: "100%" }} alt="services2" />
@@ -84,17 +78,14 @@ const Services = () => {
                 Treat your pet to a day of pampering with our professional
                 grooming services. From baths and brush-outs to breed-specific
                 haircuts and nail trims, we'll help your pet look and feel their
-                best.Indulge your pet with our luxurious spa treatments,
+                best. Indulge your pet with our luxurious spa treatments,
                 including soothing massages, moisturizing paw treatments, and
                 aromatherapy baths. Our spa services are designed to promote
                 relaxation, rejuvenation, and overall well-being.
               </SubText>
-              <StyledLink
-                to="/services"
-                target="/services"
-              >
+              <Link to="/services#petgroom" style={{ color: '#f7b2b0', fontWeight: 'bold', textDecoration: 'none' }}>
                 View Services ›
-              </StyledLink>
+              </Link>
             </Column6>
 
             <Column7>
@@ -106,12 +97,9 @@ const Services = () => {
                 stress and anxiety, and strengthen the bond between you and your
                 pet.
               </SubText>
-              <StyledLink
-                to="/services"
-                target="/services"
-              >
+              <Link to="/services#petschool" style={{ color: '#f7b2b0', fontWeight: 'bold', textDecoration: 'none' }}>
                 View Services ›
-              </StyledLink>
+              </Link>
             </Column7>
             <Column8>
               <img src={services4} style={{ width: "100%" }} alt="services2" />
