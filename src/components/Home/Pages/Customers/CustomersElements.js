@@ -12,6 +12,7 @@ export const CustomersContainer = styled.div`
   padding: 100px 0;
   @media screen and (max-width: 900px) {
     padding: 10px;
+    
   }
 `;
 
@@ -20,13 +21,14 @@ export const CustomersWrapper = styled.div`
   z-index: 1;
   height: auto;
   width: 100%;
-  max-width: 1100px;
+  max-width: 80%;
   margin-right: auto;
   margin-left: auto;
   justify-content: center;
 
   @media screen and (max-width: 900px) {
     padding: 0 0px;
+    
   }
 `;
 
@@ -40,6 +42,7 @@ export const CustomersRow = styled.div`
 
   @media screen and (max-width: 900px) {
     grid-template-columns: 1fr;
+    
   }
 `;
 
@@ -58,6 +61,10 @@ export const Column2 = styled.div`
   grid-row: span 2;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 // Declare what col3 is
@@ -65,6 +72,10 @@ export const Column3 = styled.div`
   grid-row: span 2;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 // Declare what col4 is
@@ -72,6 +83,10 @@ export const Column4 = styled.div`
   grid-row: span 2;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 // Declare what col5 is
@@ -79,6 +94,10 @@ export const Column5 = styled.div`
   grid-row: span 2;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 // Declare what col6 is
@@ -86,6 +105,10 @@ export const Column6 = styled.div`
   grid-row: span 2;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const ImgContainer = styled.div``;
