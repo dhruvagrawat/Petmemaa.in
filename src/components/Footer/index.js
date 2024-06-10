@@ -5,9 +5,6 @@ import wats from "../../Assets/Footer/wats.webp";
 import loc from "../../Assets/Footer/loc.webp";
 import logo from "../../Assets/Footer/logo.webp";
 
-
-
-
 import {
   AboveFooter,
   FooterContainer,
@@ -18,6 +15,7 @@ import {
   FooterLogoImage,
   FooterLinkTitle,
   FooterLink,
+  StyledAnchor,
   SocialMedia,
   SocialIconLink,
   SocialMediaWrap,
@@ -30,12 +28,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <AboveFooter>
-
-          
-
-      </AboveFooter>
-
+      <AboveFooter></AboveFooter>
       <FooterContainer>
         <FooterWrap>
           <FooterLinksContainer>
@@ -52,7 +45,7 @@ const Footer = () => {
                     marginTop: "10px",
                   }}
                 >
-                  We love to extend the family of Pet Me Maa !
+                  We love to extend the family of Pet Me Maa!
                 </span>
               </FooterLinkItems>
             </FooterLinksWrapper>
@@ -66,10 +59,8 @@ const Footer = () => {
               <FooterLinkItems>
                 <FooterLinkTitle>Quick Links</FooterLinkTitle>
                 <FooterLink to="/contactus">Contact Us</FooterLink>
-                <FooterLink to="/">Shipping Policy</FooterLink>
-                <FooterLink to="/">Terms and Conditions</FooterLink>
-                <FooterLink to="/">Privacy Policy</FooterLink>
-                <FooterLink to="/">Refunds/Cancellations</FooterLink>
+                <StyledAnchor href="/pdfs/tou.pdf" target="_blank" rel="noopener noreferrer">Terms and Conditions</StyledAnchor>
+                <StyledAnchor href="/pdfs/pp.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</StyledAnchor>
               </FooterLinkItems>
             </FooterLinksWrapper>
             <SocialMedia>
@@ -99,7 +90,7 @@ const Footer = () => {
                   </SocialIconLink>
                   <SocialIconLink
                     href="https://www.google.com/maps/dir//Indian+National+Public+School,+beside+to,+Sorkha,+Noida,+Uttar+Pradesh+201301/@28.5766954,77.3290014,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cef469e19f1c7:0x4832248696d14ab4!2m2!1d77.4100828!2d28.5767203?entry=ttu"
-                    target="location"
+                    target="_blank"
                     aria-label="Location"
                   >
                     <SocialLogoImage src={loc} alt="...loading" />
@@ -109,7 +100,7 @@ const Footer = () => {
             </SocialMedia>
           </FooterLinksContainer>
           <HorizontalLine />
-          <WebsiteRights>All rights reserved © Petmemaa</WebsiteRights>
+          <WebsiteRights>All rights reserved © Pet Me Maa</WebsiteRights>
         </FooterWrap>
       </FooterContainer>
     </>

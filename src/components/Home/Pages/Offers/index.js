@@ -11,6 +11,8 @@ import image2 from "../../../../Assets/Offers/slide2.webp";
 import card2 from "../../../../Assets/Offers/Card2.webp";
 import image3 from "../../../../Assets/Offers/slide3.webp";
 import card3 from "../../../../Assets/Offers/Card3.webp";
+import image4 from "../../../../Assets/Offers/slide4.png"; // Add new image for Playground and Swimming Pool
+import card4 from "../../../../Assets/Offers/card4.png"; // Add new card image for Playground and Swimming Pool
 import vector from "../../../../Assets/Offers/vector.webp";
 
 import {
@@ -174,6 +176,25 @@ const Offers = () => {
                   </ImageContainer>
                   <TextOverlay>
                     <CardImg src={card2} alt="..loading" />
+                  </TextOverlay>
+                </HoverContainer>
+              </CardContainer>
+            </Link>
+          </div>
+          <div>
+            <Link to="/services">
+              <CardContainer>
+                <HoverContainer>
+                  <ImageContainer>
+                    <ScrollImage src={image4} alt="Scrolling Image" />
+                    <InnerCard>
+                      <InnerCardHeading>Playground and Swimming Pool</InnerCardHeading>
+                      <InnerCardSubText>Starting at ₹299</InnerCardSubText>
+                      <VectorImage src={vector} alt="...loading" />
+                    </InnerCard>
+                  </ImageContainer>
+                  <TextOverlay>
+                    <CardImg src={card4} alt="..loading" />
                   </TextOverlay>
                 </HoverContainer>
               </CardContainer>

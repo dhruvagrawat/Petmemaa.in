@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-
 export const AboveFooter = styled.div`
   margin-left: auto;
   margin-right: auto;
@@ -12,12 +11,7 @@ export const AboveFooter = styled.div`
   }
 `;
 
-
 export const ImgContainer = styled.div`
-  /* display: flex;
-  justify-content: flex-end;
-  align-items: end;
-  max-width: 1000px; */
   @media screen and (max-width: 820px) {
     display: none;
   }
@@ -34,12 +28,10 @@ export const ImgWrap = styled.img`
 export const ImgWrapCat = styled.img`
   max-width: 20%;
   height: 20%;
-  /* margin: 130px 0 0 30px; */
   position: absolute;
   right: 70px;
   top: 6900px;
 `;
-
 
 // Footer CSS---------------------
 
@@ -125,6 +117,23 @@ export const FooterLink = styled(Link)`
   }
 `;
 
+// New styled component for <a> tags to match FooterLink styling
+export const StyledAnchor = styled.a`
+  color: black;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 21px;
+  font-weight: 400;
+  opacity: 0.8;
+
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
+  }
+`;
+
 export const SocialMedia = styled.section`
   max-width: 1000px;
   width: 100%;
@@ -166,7 +175,7 @@ export const SocialLogoImage = styled.img`
 
 export const HorizontalLine = styled.hr`
   width: 80%;
-  margin: 0 auto; /* Center the line horizontally */
+  margin: 0 auto;
   border: 0.5px solid #000000;
   opacity: 0.3;
   margin-bottom: 2%;
