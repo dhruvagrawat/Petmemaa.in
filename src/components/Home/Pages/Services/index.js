@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import services1 from "../../../../Assets/Services/services1.webp";
 import services2 from "../../../../Assets/Services/services2.webp";
 import services3 from "../../../../Assets/Services/services3.webp";
